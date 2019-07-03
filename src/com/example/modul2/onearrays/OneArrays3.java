@@ -38,6 +38,5 @@ public class OneArrays3 {
         System.out.println("\nnumber of minus = " + count_minus);
         System.out.println("number of plus = " + count_plus);
         System.out.println("number of zero = " + count_zero);
-
     }
 }
