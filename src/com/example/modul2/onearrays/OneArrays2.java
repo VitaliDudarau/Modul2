@@ -21,7 +21,7 @@ public class OneArrays2 {
         z = s.nextDouble();
 
         for (int i = 0; i < mas.length; i++) {
-            mas[i] = (Math.random()*(20 - 1 + 1)) + 1;
+            mas[i] = (Math.random()*(20 - (-15))) + (-15);
         }
 
         System.out.println("mas = ");
