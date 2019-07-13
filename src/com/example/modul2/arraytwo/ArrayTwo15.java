@@ -1,27 +1,16 @@
 /*
-14. Сформировать случайную матрицу m x n,
-состоящую из нулей и единиц, причем в каждом
-столбце число единиц равно номеру столбца.
+15. Найдите наибольший элемент матрицы и
+заменить все нечетные элементы на него.
 */
 package com.example.modul2.arraytwo;
 
-import java.util.Scanner;
-
-public class ArrayTwo14 {
+public class ArrayTwo15 {
 
     @SuppressWarnings("resources")
     public static void main(String[]args) {
 
         int m, n;
-        do {
-            Scanner s = new Scanner(System.in);
-            System.out.println("write number of lines: ");
-            m = s.nextInt();
-            System.out.println("write number of columns which more or equals number lines: ");
-            n = s.nextInt();
-        }while (m < n || m <= 0 || n <= 0);
-
-        int[][] arr = new int[m][n];
+        int[][] arr = new int[7][8];
 
         for (int j = arr[0].length - 1; j >= 0; j--) {
             for (int i  = 0; i <= j; i++) {
